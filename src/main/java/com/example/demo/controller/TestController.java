@@ -22,6 +22,8 @@ public class TestController {
 //        System.out.println(new ClassPropertyHandler<>(req).noHasNullOrEmptyPropertyValue());
 
         resp.setApplicationId("123");
+
+        System.out.println("Thhis");
         return ReturnEntity.returnEntity(CodeEnum.SUCCESS,"abc",resp);
     }
 }
